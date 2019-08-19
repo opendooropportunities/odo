@@ -1,0 +1,62 @@
+div{
+    font-family: 'Lexend Deca', sans-serif;
+}
+h1{
+  color:white;
+  background-color:#2F2FA2;
+  font-family: 'Abril Fatface', cursive;
+}
+
+body{
+  background: white;
+  color: black;
+}
+
+img{
+  width: 15%;
+  height: auto;
+  float: center;
+}
+.menudropdown1{
+   height: 100px;
+  margin: 0px auto;
+}
+.menudropdown1 ul{
+  padding: 0px;
+}
+.menudropdown1 ul li{
+  float: left;
+  background-color: white;
+  color: black;
+  width: 248px;
+  height:50px;
+  line-height: 50px;
+  font-size: 15px;
+  text-align: center;
+  list-style: none;
+  opacity: .99;
+}
+.menudropdown1 ul li ul{
+  display:none;
+}
+.menudropdown1 ul li:hover > ul{
+  display: block;
+}
+.menudropdown1 ul li:hover{
+  background-color: #F3BBCA;
+  opacity: 0.9;
+}
+.container {
+    position: relative;
+}
+.container img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#slide{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
